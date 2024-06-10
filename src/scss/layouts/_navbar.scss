@@ -1,0 +1,70 @@
+// NAVBAR
+.navbar {
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: transparent;
+    .navbar-brand {
+        align-items: center;
+        img {
+            max-height: none;
+            height: 75px;
+            width: 75px;
+        }
+    }
+
+    .navbar-menu {
+
+        .navbar-item {
+            color: $primaryColor;
+            font-size: 1.15rem;
+            font-weight: 500;
+            padding: .5em 1em;
+
+        }
+
+        
+    }
+
+    .languages-dorpdown {
+
+        .button {
+
+            border-color: $primaryColor;
+            border-width: 2px;
+            font-size: 1.15rem;
+            color: $primaryColor;
+            font-weight: 500;
+
+        }
+
+        .dropdown-content {
+
+            .dropdown-item {
+
+                color: $primaryColor;
+                font-size: .97rem;
+                cursor: pointer;
+                font-weight: 500;
+
+                &.ar-button {
+                    font-family: $arabicFont;
+                    font-weight: 500;
+                }
+
+                &:hover {
+                    background-color: rgba($secondryColor, .15) ;
+                }
+
+            }
+
+        }
+       
+    }
+
+    .navbar-burger {
+
+        color: $primaryColor;
+        background-color: transparent;
+
+    }
+}

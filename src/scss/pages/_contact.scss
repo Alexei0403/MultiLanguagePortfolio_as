@@ -1,0 +1,37 @@
+#contact {
+    position: relative;
+
+    .section-container {
+        margin-top: 80px;
+    }
+
+    .contact-form-container {
+        position: sticky;
+        z-index: 3;
+
+        p {
+            font-size: 1.2rem;
+            color: #ff9502;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+    }
+
+    .contact-title  h2{
+        font-weight: 900 !important;
+        color: $primaryColor;
+        font-size: 1.75rem;
+        text-align: right;
+    }
+
+    .contact-draw-image {
+        max-width: 499px;
+        position: absolute;
+        bottom: 0;
+        left: -5%;
+        z-index: 2;
+        opacity: .7;
+    }
+
+
+}

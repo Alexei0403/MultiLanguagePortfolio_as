@@ -1,0 +1,85 @@
+{
+  "navbar": {
+    "home": "Home",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "offers": "Offers",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "language": "Language"
+  },
+
+  "home": {
+    "heading": "Making Awesome Websites",
+    "subtitle": "I'm John Doe | Full-Stack Developer",
+    "short-descrip": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
+    "hire-btn": "Hire me",
+    "contact-btn": "Contact me"
+  },
+
+  "skills": {
+    "heading": "02. Skills",
+    "section-descrip": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
+    "sub-section-title": "Certificate"
+  },
+
+  "portfolio": {
+    "heading": "03. Portfolio",
+    "preview": "Live Preview"
+  },
+
+  "offers": {
+    "heading": "04. Offers",
+    "offer-item-title-two": "Show your works with this stannig template [Free Download",
+    "offer-type-one": "Special offer",
+    "offer-type-two": "Freebie"
+  },
+
+  "reviews": {
+    "heading": "05. Reviews",
+    "rating": "Rating",
+    "next": "Next Review",
+    "position": "Client"
+  },
+
+  "contact": {
+    "heading": "05. Contact",
+    "section-descrip": " If you have any suggestion, project or even you want to say Hello. please fill out the form below and I will reply you shortly.",
+
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message"
+    },
+
+    "errors": {
+      "general": "* Can't be empty & Special characters not allowed",
+      "phone": "* It should be a vaild phone number",
+      "email": "* Can't be empty & It should be a vaild address e-mail",
+      "emptyMsg": "* The message field could not be empty",
+      "shortMsg": "* The message field could not be too short text",
+      "specialChars": "* special characters not allowed",
+      "submitError": "Oops! An error occurred and your message could not be sent. please try again"
+    },
+    "successMsg": "Thank you for contacting me, your message was sent successfully I will contact you as soon as possible.",
+
+    "optional": "Optional",
+    "send-btn": "Send Message"
+  },
+
+  "error": {
+    "heading": "Error 404",
+    "home-btn": "Home",
+    "section-title": "Ops! This page not found"
+  },
+
+  "sidebar": {
+    "name": "John Doe",
+    "position": "Full-stack developer",
+    "bio": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    "contact-heading": "Keep in touch",
+    "download-resume-btn": "Download my resume"
+  }
+}

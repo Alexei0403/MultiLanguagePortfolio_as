@@ -1,0 +1,205 @@
+#home {
+    position: relative;
+    overflow: visible;
+
+    .section-container {
+        min-height: calc(100vh - 6.25rem);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .home-content {
+        position: sticky;
+        z-index: 3;
+
+        &::before {
+            content: "";
+            border-width: 14px;
+            border-style: solid;
+            border-color: transparent transparent #fe9c15 transparent;
+            display: block;
+            position: absolute;
+            left: 8%;
+            top: -125px;
+            @include randRotate(0deg, 360deg, 5s);
+        }
+
+        &::after {
+            content: "";
+            width: 20px;
+            height: 20px;
+            background: #fe9c15;
+            display: block;
+            position: absolute;
+            right: 25%;
+            animation-name: randBounce;
+            animation-duration: .5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            transform: rotate(88deg);
+            transition: all .5s linear;
+        }
+
+        
+    
+        @keyframes randBounce {
+            0% {
+                top: -100px;
+            }
+    
+            100% {
+                top: -95px;
+            }
+        }
+
+        h1 {
+            color: $primaryColor;
+            font-weight: 900;
+            font-size: 4rem;
+            line-height: 1.25;
+            margin-bottom: 5px;
+            position: relative;
+            width: 100%;
+
+
+            &:before {
+                content: "";
+                border-width: 21px;
+                border-style: solid;
+                border-color: transparent transparent #7C30d8 transparent;
+                display: block;
+                position: absolute;
+                top: -200px;
+                @include randRotate(-30deg, 360deg, 8s);
+                right: 50%;
+            }
+
+            &:after {
+                content: '';
+                width: 50px;
+                height: 50px;
+                background: transparent;
+                border: 4px solid #fe9c15;
+                display: block;
+                position: absolute;
+                right: 8%;
+                border-radius: 50%;
+                top: 50%;
+                z-index: -1;
+
+             
+            }
+
+        }
+
+        h3 {
+            margin-bottom: 15px;
+            color: #fe9c15;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+
+        p {
+            max-width: 70%;
+            color: #676363;
+            font-weight: 500;
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+        }
+
+        .buttons {
+            position: relative;
+
+            &:before {
+                content: "";
+                display: block;
+                position: absolute;
+                right: 25%;
+                border-width: 14px;
+                border-style: solid;
+                border-color: transparent transparent #fe9c15 transparent;
+                bottom: -100px;
+                @include randRotate(90deg, 360deg, 5s);
+
+            }
+
+            &:after {
+                content: '';
+                width: 25px;
+                height: 25px;
+                background: transparent;
+                border: 4px solid $primaryColor;
+                display: block;
+                position: absolute;
+                right: 8%;
+                top: 50%;
+                @include randRotate(90deg, 360deg, 5s);
+            }
+        }
+
+        .button.pph-btn {
+            color: $whiteColor;
+            background-color: $primaryColor;
+            font-weight: 500;
+            position: relative;
+
+            &:before {
+                content: "";
+                width: 10px;
+                height: 10px;
+                background: #fe9c15;
+                display: block;
+                position: absolute;
+                right: 8%;
+                bottom: -110px;
+                @include randRotate(30deg, 80deg, 2s);
+            }
+
+            img {
+                max-width: 120px;
+                margin-left: 5px;
+            }
+        }
+
+        .button.contact-btn {
+            color: $primaryColor;
+            text-decoration: none;
+            font-weight: 500;
+            position: relative;
+
+            &:before {
+                content: "";
+                display: block;
+                position: absolute;
+                right: -67px;
+                border-width: 12px;
+                border-style: solid;
+                border-color: transparent transparent #7C30d8 transparent;
+                bottom: -150px;
+                @include randRotate(15deg, 180deg, 8s);
+
+            }
+
+            &:hover {
+                background: transparent;
+            }
+        }
+    }
+    
+    &::before {
+        content: "";
+        display: block;
+        width: 550px;
+        height: 550px;
+        background-color: rgba(254, 185, 90, 0.25);
+        border-radius: 50%;
+        z-index: 1;
+        position: absolute;
+        left: -20%;
+        top: -28%;
+    }
+
+}

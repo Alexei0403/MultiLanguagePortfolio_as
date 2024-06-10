@@ -1,0 +1,32 @@
+html {
+    font-size: $mainFontSize;
+
+    body {
+        font-family: $mainFont;
+        line-height: $lineHeight;
+        font-weight: 300;
+        color: $blackColor;
+        background-color: $whiteColor;
+
+        
+        .section-container {
+            padding: 1.5rem;
+        }
+
+        section {
+            min-height: calc(100vh - 6.25rem);
+            position: relative;
+            overflow: hidden;
+            padding-left: 80px;
+
+            .section-title {
+                
+                position: absolute;
+                bottom: 25px;
+                right: 1.5rem;
+                z-index: 3;
+            }
+
+        }
+    }
+}

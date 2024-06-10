@@ -1,0 +1,59 @@
+.error-404 {
+    position: relative;
+    .section-container {
+        margin-top: 80px;
+    }
+    .error-title  h2{
+        font-weight: 900 !important;
+        color: $primaryColor;
+        font-size: 1.75rem;
+        text-align: right;
+    }
+
+    .page-content {
+        position: sticky;
+        z-index: 3;
+
+        h2 {
+            font-size: 2rem;
+            position: sticky;
+            z-index: 3;
+            color: #7c30d8;
+        }
+
+        .not-found {
+            max-width: 500px;
+            margin: 0 auto 50px;
+        }
+    }
+
+    .page-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .buttons {
+            .home-button {
+                background-color: $primaryColor;
+                color: $whiteColor;
+            }
+        }
+    
+    }
+
+    
+    &::before {
+        content: "";
+        display: block;
+        width: 450px;
+        height: 450px;
+        background-color: rgba(254, 185, 90, 0.25);
+        border-radius: 50%;
+        z-index: 1;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}

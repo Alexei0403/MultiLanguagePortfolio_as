@@ -1,0 +1,68 @@
+@media (max-width: 1215px) {
+
+    #skills {
+        .section-container {
+            margin-top: 0;
+
+            .skills-container {
+                margin-bottom: 50px !important ;
+            }
+
+            .skills-p {
+                margin-bottom: 40px !important;
+                margin-left: 0;
+                width: 100%;
+            }
+
+            .cert {
+                margin: 0;
+            }
+        }
+    }
+
+
+    #portfolio {
+        .portfolio-items .portfolio-item .card-footer .is-flex {
+            flex-direction: column;
+        }
+    }
+
+
+    #reviews,
+    #contact {
+
+        .section-container {
+            margin-top: 0;
+
+        }
+    }
+}
+
+@media  (min-width: 1024px) and (max-width: 1215px) {
+    #home {
+        .home-content {
+            h1:before {
+                display: none;
+                pointer-events: none;
+            }
+        }
+    }
+}
+
+@media  (min-width: 1215px)  {
+    #home {
+        .home-content {
+            h1 {
+              width: 85% !important;
+            }
+        }
+    }
+
+    #contact .contact-form-container p.form-msg {
+        width: 85% !important;
+
+
+    }
+
+
+}

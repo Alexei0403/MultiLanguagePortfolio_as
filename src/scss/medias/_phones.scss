@@ -1,0 +1,203 @@
+@media  (max-width: 376px) {
+    #home:before {
+        left: -12% !important;
+        top: -18% !important;
+        width: 250px !important;
+        height: 250px !important;
+    }
+
+    #contact {
+        .contact-form-container {
+            margin-bottom: 50px;
+        }
+    }
+
+    aside {
+        .social-media {
+            flex-direction: column;
+        }
+    }
+
+    .error-404 .page-footer {
+
+        flex-direction: column;
+        align-items: center;
+        .title {
+            margin-bottom: 25px;
+        }
+    }
+}
+
+
+@media  (max-width: 485px) {
+    #home:before {
+            left: -15%;
+            top: -30%;
+            width: 400px;
+            height: 400px;
+    }
+
+    #reviews {
+        .review-item .review-header {
+            flex-direction: column;
+
+            .rating {
+                margin-top: 30px;
+            }
+        }
+    }
+    
+}
+
+@media  (max-width: 585px) {
+    #reviews:after {
+            display: none;
+            opacity: 0;
+            pointer-events: none;
+    }
+
+    #reviews {
+        .reviews-control {
+             margin-bottom: 45px;
+        }
+        .reviews-draw-image  {
+            display: none;
+            opacity: 0;
+            pointer-events: none;
+        }
+    }
+
+    .error-404::before {
+        content: "";
+        display: block;
+        width: 300px;
+        height: 300px;
+        z-index: -1;
+    }
+    
+}
+
+
+@media  (max-width: 768px) {
+
+    #home {
+        padding-left: 0;
+
+        .home-content {
+
+            h1 {
+                font-size: 3rem;
+            }
+            
+            p {
+                max-width: 100%;
+            }
+
+            .buttons::after {
+                right: 0%;
+                top: 100%;
+            }
+
+            .contact-btn:before {
+                display: none !important;
+                opacity: 0;
+                pointer-events: none;
+            }
+        }
+    }
+
+    #skills {
+        padding-left: 0;
+
+        .section-container {
+
+            .columns {
+                .column {
+                    display: inline-flex;
+                }
+            }
+
+           
+        }
+
+    }
+
+    #portfolio,
+    #offers,
+    #contact,
+    .error-404 {
+        padding-left: 0;
+    }
+
+    
+
+    #offers {
+        .offers-items{
+            margin-bottom: 50px;
+        }
+    }
+
+    #reviews::after {
+        z-index: -1;
+    }
+
+    #reviews {
+        padding-left: 0;
+
+        .review-item {
+            position: sticky;
+            z-index: 4;
+
+            .review-content {
+                p {
+                    max-width: 100%;
+                }
+            }
+        }
+
+        .reviews-draw-image {
+            position: relative;
+            bottom: -25px;
+            opacity: .75;
+        }
+
+
+    }
+
+    #reviews::after {
+        contain: '';
+        height: 450px;
+        width: 450px;
+    }
+
+
+
+    aside {
+        position: sticky;
+        border-top: 6px solid #E8E8F1;
+        border-left: none;
+
+        .about-me {
+            height: 100vh;
+        }
+
+    }
+   
+}
+
+@media screen and (max-height: 700px ) {
+   aside {
+       padding-top: 35px;
+       overflow: hidden;
+       height: auto;
+       position: relative;
+    .about-me {
+        height: auto !important;
+    }
+    .social-media{
+        position: relative;
+        margin-top: 23px;
+    }
+   }
+   
+}

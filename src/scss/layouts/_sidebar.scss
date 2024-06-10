@@ -1,0 +1,119 @@
+/** @format */
+
+// SIDEBAR
+aside {
+  background-color: #fafafa;
+  border-left: 6px solid #e8e8f1;
+  position: fixed;
+  top: 0;
+  min-height: 100vh;
+  padding: 0px 25px 0 1.5rem;
+  overflow: hidden;
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    .avater {
+      max-width: 170px;
+      position: relative;
+      margin: 0 auto;
+
+      img {
+        border-radius: 50%;
+      }
+
+      .avilable {
+        width: 20px;
+        height: 20px;
+        background-color: $greenColor;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        bottom: 10px;
+        right: 19px;
+        border: 3px solid #fafafa;
+      }
+    }
+
+    h2 {
+      font-weight: 500;
+      color: $blackColor;
+      margin-bottom: 5px;
+      font-size: 1.25rem;
+      margin-top: 15px;
+    }
+
+    h4 {
+      font-weight: 500;
+      color: $primaryColor;
+    }
+
+    .short-bio {
+      color: #6c6c88;
+      margin: 15px 0 25px;
+      font-size: 1.05rem;
+      font-weight: 400;
+    }
+
+    .signature {
+      max-width: 145px;
+      margin: 0 auto 20px;
+      opacity: 0.6;
+    }
+
+    .button-container {
+      text-align: center;
+
+      .button {
+        background-color: $primaryColor;
+        color: $whiteColor;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  .social-media {
+    justify-content: center;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    align-items: center;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    margin: auto;
+
+    h5 {
+      color: #ff9c14;
+      font-weight: 500;
+      margin-right: 10px;
+    }
+
+    .social-media-links {
+      .social-media-link {
+        a {
+          color: $whiteColor;
+
+          .icon {
+            background-color: #ff9c14;
+            border-radius: 4px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  svg#shape {
+    position: absolute;
+    bottom: -45%;
+    left: 17%;
+    z-index: -1;
+  }
+}

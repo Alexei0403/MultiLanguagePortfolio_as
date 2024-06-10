@@ -1,0 +1,93 @@
+
+{
+    "navbar": {
+        "home": "Accueil",
+        "skills": "Compétences",
+        "portfolio": "Portfolio",
+        "offers": "offres",
+        "reviews": "Témoignages",
+        "contact": "Contact",
+        "language": "Langue"
+    },
+
+    "home": {
+        "heading": "Création de sites Web impressionnants",
+        "subtitle": "Je suis John Doe | Développeur Full-Stack",
+        "short-descrip": "Il existe de nombreuses variations de passages du Lorem Ipsum, mais la majorité a subi des altérations sous une forme ou une autre, par le biais d'humour injecté.",
+        "hire-btn": "Engagez-moi sur",
+        "contact-btn": "Contactez-moi"
+    },
+
+    
+    "skills": {
+        "heading": "02. Compétences",
+        "section-descrip": "Pour la création de sites web et d'applications web, j'utilise des technologies et des techniques modernes avec les meilleures pratiques pour que mes clients soient satisfaits à 100% du résultat...",
+        "sub-section-title": "Certificat"
+    },
+
+    "portfolio": {
+        "heading": "03. Portfolio",
+        "preview": "Aperçu en direct"
+    },
+
+    "offers": {
+        "heading": "04. Offres",
+        "offer-item-title-one": "Eljaouadi | portfolio site web HTML [Télécharger les fichiers depuis Github]",
+        "offer-item-title-two": "Fresh | page de destination HTML pour portfolio [Télécharger les fichiers depuis Github]",
+        "offer-type-one": "Offre spéciale",
+        "offer-type-two": "Gratuit"
+    },
+
+    "reviews": {
+
+        "heading": "05. Avis",
+        "rating": "Rating",
+        "next": "Avis suivant",
+        "position": "Client"
+
+    },
+    
+    "contact": {
+
+        "heading": "05. Contact",
+        "section-descrip": "Si vous avez des suggestions, un projet ou même si vous voulez dire bonjour. Veuillez remplir le formulaire ci-dessous et je vous répondrai sous peu.",
+
+        "form": {
+            "name": "Nom",
+            "email": "Email",
+            "phone": "Téléphone",
+            "subject": "Sujet",
+            "message": "Message"
+        },
+        "errors": {
+
+            "general" : "* Ne peut pas être vide et les caractères spéciaux ne sont pas autorisés",
+            "phone": "* Doit être un numéro de téléphone valide",
+            "email": "* Ne peut pas être vide et doit être une adresse e-mail valide",
+            "emptyMsg": "* Le champ du message ne peut pas être vide",
+            "shortMsg": "* Le champ du message ne peut pas contenir un texte trop court",
+            "specialChars": "* Les caractères spéciaux ne sont pas autorisés",
+            "submitError": "Oops! Une erreur s'est produite et votre message n'a pas pu être envoyé. Veuillez réessayer"
+            
+        },
+
+        "successMsg": "Merci de m'avoir contacté, votre message a été envoyé avec succès. Je vous contacterai dès que possible.",
+        "optional": "Optionnel",
+        "send-btn": "Envoyer le message"
+        
+    },
+
+    "error": {
+        "heading": "Erreur 404",
+        "home-btn": "Accueil",
+        "section-title": "Oops ! Cette page est introuvable"
+    },
+
+    "sidebar": {
+        "name": "John Doe",
+        "position": "Développeur Full-Stack",
+        "bio": "Il existe de nombreuses variations de passages du Lorem Ipsum, mais la majorité a subi des altérations sous une forme ou une autre, par le biais d'humour injecté ou de mots aléatoires qui ne semblent même pas crédibles.",
+        "contact-heading": "Restons en contact",
+        "download-resume-btn": "Télécharger mon CV"
+    }
+}

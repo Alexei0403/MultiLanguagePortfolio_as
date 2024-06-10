@@ -1,0 +1,85 @@
+
+#form-message.successMessage {
+    color: #217a00;
+    font-weight: 500;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+
+form {
+    max-width: 90%;
+
+
+    .field {
+        .control {
+            position: relative;
+            .input,
+            .textarea {
+                box-shadow: none;
+                border: 1px solid $primaryColor;
+            }
+
+            .label {
+                color: $primaryColor;
+                position: absolute;
+                top: -13px;
+                left: 20px;
+                background-color: $whiteColor;
+                padding-left: 10px;
+                padding-right: 10px;
+
+                .custom-lable {
+                    color: $primaryColor;
+                    font-weight: 700;
+                    font-size: 1rem;
+                }
+
+                span {
+                    font-weight: 400;
+                    font-size: 13px;
+                    color: #726F6F;
+                }
+            }
+        }
+        .button {
+            background-color: $primaryColor;
+            color: $whiteColor;
+            font-family: $mainFont;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+
+
+}
+
+form > .field {
+    margin-bottom: 25px !important;
+}
+
+.errorMessage {
+    display: none;
+    line-height: 1.5;
+    font-size: 13px;
+    margin-bottom: 0px;
+    color: #f92a2a;
+    font-weight: 400;
+    margin-top: 10px;
+    background-color: rgba($whiteColor, .7);
+    padding: 10px 15px;
+
+}
+
+
+input:invalid[focused=true],
+textarea:invalid[focused=true],
+.errorLine {
+    border: 1px solid  #f92a2a !important;
+    color: #f92a2a
+}
+
+input:invalid[focused=true] ~ span.errorMessage,
+textarea:invalid[focused=true] ~ span.errorMessage{
+    display: block;
+} 

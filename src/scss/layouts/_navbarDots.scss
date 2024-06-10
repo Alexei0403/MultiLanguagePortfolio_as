@@ -1,0 +1,81 @@
+.navbar-dots {
+    position: fixed;
+    z-index: 4;
+    top: 50%;
+    left: 50px;
+    transform: translateX(-50%);
+
+    ul {
+
+        display: flex;
+        min-width: 350px;
+        justify-content: space-between;
+        transform: rotate(-90deg);
+        flex-direction: row-reverse;
+        align-items: center;
+        line-height: 1;
+
+        li {
+
+            a {
+                color: $primaryColor;
+                display: inline-block;
+        
+                .active-dot {
+        
+                    font-weight: 700;
+                    font-size: 1.2rem;
+                    text-transform: capitalize;
+                    display: block;
+                    position: relative;
+                    top: -2px;
+                    margin-left: 60px;
+    
+                    &:after {
+                        content: '';
+                        display: inline-block;
+                        width: 50px;
+                        height: 5px;
+                        background-color: $primaryColor;
+                        position: absolute;
+                        transform: translate(-70px, -2px);
+                        top: 50%;
+                        left: 0%;
+    
+                    }
+                    
+                }
+        
+            }
+
+
+            &:last-of-type {
+
+                .active-dot {
+        
+                    
+                    top: -2px;
+                    margin-right: 70px;
+                    margin-left: 0;
+    
+                    &:after {
+                      
+                        height: 5px;
+                        transform: translate(100px, -2px);
+                        top: 50%;
+                        left: 0%;
+    
+                    }
+                    
+                }
+               
+            }
+
+        }
+
+       
+    
+    }
+
+
+}

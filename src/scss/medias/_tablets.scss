@@ -1,0 +1,72 @@
+@media  (max-width: 1023px) {
+
+    #contact {
+
+        form {
+            max-width: 100%;
+        }
+    }
+
+    aside {
+
+        .about-me {
+            height: 90vh;
+        }
+
+        .social-media {
+            flex-direction: column;
+
+            h5 {
+                margin-left: 0;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .navbar-burger.is-active {
+        z-index: 3;
+    }
+
+    .navbar-item .lang.button {
+        margin-left: 0;
+    }
+
+
+    .navbar-menu.is-active {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-top: 35px;
+        transition: all .3s ease-in-out;
+        border-top: 7px solid #7c30d8;
+        animation-name: slideDown;
+        animation-duration: .3s;
+        animation-iteration-count: 1;
+
+
+        @keyframes slideDown  {
+            from {
+                top: -120px;
+
+            }
+
+            to {
+                top: 0;
+            }
+        }
+    }
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1023px) {
+
+    #reviews .reviews-draw-image {
+        max-width: 450px;
+        position: relative;
+        bottom: -24px;
+        left: -26%;    
+    }
+ 
+}
